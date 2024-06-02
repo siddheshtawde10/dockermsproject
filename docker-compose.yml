@@ -20,7 +20,7 @@ services:
     deploy:
       replicas: 3
   dth:
-    image: sidd7/recharge:latest
+    image: sidd7/rechargerepo:latest
     ports:
       - 84:80
     deploy:
